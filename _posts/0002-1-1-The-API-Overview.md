@@ -10,15 +10,15 @@ angular('module').component('component', {
     attributes: '@',
     callback: '&'
   },
+  controller: Controller,
+  template: '?',
+  templateUrl: '?',
+  controllerAs: '$ctrl',
+  transclude: false,
   require: {
     ownElement: '',
     ownOrParent: '^',
     onlyParents: '^^'
   },
-  controller: Controller,
-  template: '?',
-  templateUrl: '?',
-  controllerAs: '$ctrl',
-  transclude: false
 });
 ```
