@@ -17,7 +17,10 @@ body {
 
 body .container-fluid {
   height: 100%;
-  padding: 104px;
+  padding:{
+    left: 104px;
+    right: 104px;
+  }
 }
 
 .posts {
@@ -31,7 +34,7 @@ body .container-fluid {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: $lightGray;
   font-weight: bold;
 
   line-height: 1.7;
