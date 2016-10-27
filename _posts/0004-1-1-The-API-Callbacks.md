@@ -21,11 +21,12 @@ function Controller() {
 
 #### On the component listening
 
+##### template
 ```html
   <component on-callback="$ctrl.handleCallback($event)"></component>
 ```
 
-
+##### controller
 ```javascript
 function Controller() {
   this.handleCallback = function (event) {
