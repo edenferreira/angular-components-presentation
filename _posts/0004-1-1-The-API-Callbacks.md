@@ -27,7 +27,7 @@ function Controller() {
 ```javascript
 function Controller() {
   this.handleCallback = function (event) {
-    doSomething(event);
+    doSomething(event.someValue);
   };
 }
 ```
