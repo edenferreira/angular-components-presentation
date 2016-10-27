@@ -24,6 +24,7 @@ function Controller() {
 ```html
   <component on-callback="$ctrl.handleCallback($event)"></component>
 ```
+
 ```javascript
 function Controller() {
   this.handleCallback = function (event) {
