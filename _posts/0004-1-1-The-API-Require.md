@@ -18,8 +18,9 @@ require: {
 }
 ```
 <br><br><br>
-* Use with care because it can couple the component to another
 
-* It is great to use with trancluded elements
+> ### Use with care because it can couple the component to another
 
-* Never seen good use with option parents
+> ### It is great to use with trancluded elements
+
+> ### Never seen good use with option parents
