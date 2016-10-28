@@ -17,9 +17,7 @@ require: {
     optional: '?^'
 }
 ```
-
-
-
+<br><br><br>
 * Use with care because it can couple the component to another
 
 * It is great to use with trancluded elements
