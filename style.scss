@@ -9,18 +9,19 @@ html {
 }
 
 body {
-  background: $white;
+  background: $darkGray;
   font: $helvetica;
-  color: $darkGray;
+  color: $darkerGray;
   height: 100%;
 }
 
 body .container-fluid {
   height: 100%;
-  padding:{
+  width: 1193px;
+  /*padding:{
     left: 104px;
     right: 104px;
-  }
+  }*/
 }
 
 .posts {
