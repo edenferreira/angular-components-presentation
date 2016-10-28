@@ -18,6 +18,10 @@ require: {
 }
 ```
 
+
+
 * Use with care because it can couple the component to another
+
 * It is great to use with trancluded elements
+
 * Never seen good use with option parents
