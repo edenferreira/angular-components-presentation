@@ -20,5 +20,5 @@ require: {
 <br><br><br>
 
 > #### Use with care because it can (problably will) couple the components.
-> #### It is great to use with trancluded elements.
-> #### NgModel is a good exmple of directive designed to be required
+> It is great to use with trancluded elements.
+> NgModel is a good exmple of directive designed to be required
