@@ -19,6 +19,6 @@ require: {
 ```
 <br><br><br>
 
-> Use with care because it can (problably will) couple the components.
-> It is great to use with trancluded elements.
-> NgModel is a good exmple of directive designed to be required.
+> Use with care because it can (problably will) couple the components.  <br>
+> It is great to use with trancluded elements.  <br>
+> NgModel is a good exmple of directive designed to be required.  <br>
