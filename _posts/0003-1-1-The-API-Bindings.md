@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The API - Bindings
+title: The API
 ---
 ## Bindings
 

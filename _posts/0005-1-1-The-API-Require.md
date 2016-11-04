@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The API - Require
+title: The API
 ---
 
 ## Require

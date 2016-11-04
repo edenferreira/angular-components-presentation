@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Controller - Changes Object
+title: The Controller
 ---
 
 ## Changes

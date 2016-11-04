@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The API - Callbacks
+title: The API
 ---
 
 ## Callbacks syntax

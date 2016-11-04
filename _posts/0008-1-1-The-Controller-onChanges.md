@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Controller - $onChanges
+title: The Controller
 ---
 
 ## $onChanges

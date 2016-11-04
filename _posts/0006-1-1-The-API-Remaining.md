@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The API - Remaining
+title: The API
 ---
 
 ## The Others
