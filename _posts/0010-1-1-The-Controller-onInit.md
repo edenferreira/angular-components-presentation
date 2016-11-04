@@ -12,6 +12,7 @@ title: The Controller
          ownId = this.parentRequiredIsReady.notifyWasAdded();
     };
 ```
+<br>
 
 * $onInit is guaranteed to be called after the parent controller was create and had its own $onInit called.
 * It's the second hook called on the component initiation, *AFTER* $onChanges
