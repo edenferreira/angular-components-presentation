@@ -3,7 +3,7 @@ layout: post
 title: The Controller
 ---
 
-## Changes
+## Changes Object
 
 ```javascript
 this.$onChanges = function (changes) {
@@ -22,5 +22,6 @@ if (changes.binding) {
     this.another = bindginsDidChange(changes.binding.currentValue);
 }
 ```
+<br>
 
 * Remember to think about the case where the binding is undefined, the first time, and the others.
