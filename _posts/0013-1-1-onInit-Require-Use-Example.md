@@ -16,7 +16,7 @@ title: Example of $onInit and Require
     </navigable>
 </navigation>
 ```
-
+<br>
 ```html
 <navigation>
     <navigable ng-repeat="content in $ctrl.items track by $index">
