@@ -6,15 +6,17 @@ title: The API
 ## Require
 
 ```javascript
-require: {
-    //For when you require ngModel for example
-    ownElement: '',
-    //For when you want to create tabs pane
-    ownOrParent: '^',
-    //Something crazy, or maybe a dashboard
-    onlyParents: '^^',
-    //Ever other fails if the controller is not present
-    optional: '?^'
+{
+    require: {
+        //For when you require ngModel for example
+        ownElement: '',
+        //For when you want to create tabs pane
+        ownOrParent: '^',
+        //Something crazy, or maybe a dashboard
+        onlyParents: '^^',
+        //Ever other fails if the controller is not present
+        optional: '?^'
+    }
 }
 ```
 <br><br><br>

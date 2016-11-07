@@ -6,12 +6,14 @@ title: The API
 ## The Others
 
 ```javascript
+{
     controller: Controller,
     template: '?',
     templateUrl: '?',
     //by default
     controllerAs: '$ctrl',
-    transclude: false,
+    transclude: false
+}
 ```
 <br><br>
 
