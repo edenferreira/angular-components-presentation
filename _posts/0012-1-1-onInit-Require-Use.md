@@ -5,15 +5,23 @@ title: Example of $onInit and Require
 
 ```javascript
 function NavigableCtrl() {
-    var ownId;
+  this.$onInit = function() {
+    this.navigation.addNewItem(this.name);
+  };
 
-    this.$onInit = function () {
-        ownId = this.navigation.addNewItem();
-    };
+  this.$onChanges = function(changes) {
+    if (changes.name) {
+      this.name = changes.name.currentValue || changes.name.previousValue;
+    }
+  };
 
-    this.isActive = function () {
-        return this.navigation.isActive(ownId);
-    };
+  this.$onDestroy = function() {
+    this.navigation.removeItem(this.name);
+  };
+
+  this.isActive = function() {
+    return this.navigation.isActive(this.name);
+  };
 }
 
 angular.module('navigation').component('navigable', {

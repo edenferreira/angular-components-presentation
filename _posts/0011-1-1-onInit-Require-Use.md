@@ -4,27 +4,38 @@ title: Example of $onInit and Require
 ---
 
 ```javascript
-function NavigationCtrl() {
-    var items = [],
-        activeIndex;
+ function NavigationCtrl() {
+   var items = [];
+   var activeName;
 
-    this.addNewItem = function () {
-        var index = items.length;
-        items.push(index);
-        if (items.length === 1) {
-            activeIndex = index;
-        }
-        return index;
-    };
+   this.addNewItem = function(name) {
+     items.push(name);
+     if (isFirstItem(items)) {
+       this.activate(name);
+     }
+   };
 
-    this.activate = function (index) {
-        activateIndex = index;
-    }
+   this.activate = function(name) {
+     activeName = name;
+     this.onActiveChange({
+       $event: {
+         name: activeName
+       }
+     });
+   };
 
-    this.isActive = function (index) {
-        return activeIndex === index;
-    };
-}
+   this.isActive = function(name) {
+     return activeName === name;
+   };
+
+   this.navigables = function() {
+     return items;
+   };
+
+   function isFirstItem(items) {
+     return items.length === 1;
+   }
+ }
 
 angular.module('navigation').component('navigation', {
     ...,
